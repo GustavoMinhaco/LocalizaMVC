@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizaMVC.Domain", "LocalizaMVC.Domain\LocalizaMVC.Domain.csproj", "{B49CB997-4606-4B1B-ADE4-E36325FDD671}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizaMVC.Application", "LocalizaMVC.Application\LocalizaMVC.Application.csproj", "{4E93E258-8E29-4EE3-860B-F701CFC63A4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B49CB997-4606-4B1B-ADE4-E36325FDD671} = {B49CB997-4606-4B1B-ADE4-E36325FDD671}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizaMVC.Infra.Data", "LocalizaMCV.Infra.Data\LocalizaMVC.Infra.Data.csproj", "{156FF2A7-53AF-42B2-8E8C-20BCCECA8C1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizaMVC.Infra.IoC", "LocalizaMVC.Infra.IoC\LocalizaMVC.Infra.IoC.csproj", "{821746A2-F79A-43C4-B98A-956FA536C0CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizaMVC.WebAPI", "LocalizaMVC.WebAPI\LocalizaMVC.WebAPI.csproj", "{8E9266B9-3062-4328-B6BD-162789708582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizaMVC.Domain.Testes", "LocalizaMVC.Domain.Testes\LocalizaMVC.Domain.Testes.csproj", "{7AD8AC24-31D4-4F59-BCDD-0586C91690EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B49CB997-4606-4B1B-ADE4-E36325FDD671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49CB997-4606-4B1B-ADE4-E36325FDD671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49CB997-4606-4B1B-ADE4-E36325FDD671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49CB997-4606-4B1B-ADE4-E36325FDD671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E93E258-8E29-4EE3-860B-F701CFC63A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E93E258-8E29-4EE3-860B-F701CFC63A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E93E258-8E29-4EE3-860B-F701CFC63A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E93E258-8E29-4EE3-860B-F701CFC63A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156FF2A7-53AF-42B2-8E8C-20BCCECA8C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156FF2A7-53AF-42B2-8E8C-20BCCECA8C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156FF2A7-53AF-42B2-8E8C-20BCCECA8C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156FF2A7-53AF-42B2-8E8C-20BCCECA8C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821746A2-F79A-43C4-B98A-956FA536C0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821746A2-F79A-43C4-B98A-956FA536C0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821746A2-F79A-43C4-B98A-956FA536C0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821746A2-F79A-43C4-B98A-956FA536C0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9266B9-3062-4328-B6BD-162789708582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9266B9-3062-4328-B6BD-162789708582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9266B9-3062-4328-B6BD-162789708582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9266B9-3062-4328-B6BD-162789708582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD8AC24-31D4-4F59-BCDD-0586C91690EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD8AC24-31D4-4F59-BCDD-0586C91690EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD8AC24-31D4-4F59-BCDD-0586C91690EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD8AC24-31D4-4F59-BCDD-0586C91690EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34D6B69E-7104-4FEC-97CF-3ED41B805D41}
+	EndGlobalSection
+EndGlobal
